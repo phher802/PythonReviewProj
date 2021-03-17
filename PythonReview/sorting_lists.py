@@ -15,7 +15,7 @@ sorted(numbers, reverse=True)
 
 print(sorted(numbers))
 
-##if you have a list of tuples, e.g. product name and its price
+## sorting when you have a list of tuples, e.g. product name and its price
 
 items = [
     ("Product1", 10),
