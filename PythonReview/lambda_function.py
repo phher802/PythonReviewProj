@@ -16,7 +16,7 @@ items.sort(key=sort_item)
 print(items)
 
 
-#do this: syntax:  key=lambda <parameters>:<expression>
+#do this: syntax:  key=lambda <parameter>:<expression>
 
 items.sort(key=lambda item:item[1])
 print(items)
