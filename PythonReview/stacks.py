@@ -21,7 +21,7 @@ print(browsing_session)
 print("redirect", browsing_session[-1])
 
 ## check to see if stack is empty or not; if it is empty, disable the back button
-## empty arrays, lists, [] are falsy -- add "not" makes them true
+## 0, empty arrays, lists, [] are falsy -- add "not" makes them true
 if not browsing_session:  # if browsing session is empty = true
     print("disable")
 
@@ -29,6 +29,6 @@ if not browsing_session:  # if browsing session is empty = true
 browsing_session = []
 browsing_session.append()  #add an item to the top of the stack
 browsing_session.pop()     #remove an item on top of the stack 
-if not browsing_session:  #check to see if stack is empty or not to make sure we don't get an error; if browsing session is not empty then get the item at the top of the stack
+if not browsing_session:  #check to see if stack is empty; if browsing session is not empty then get the item at the top of the stack
     browsing_session[-1]   #to get the item on the top of the stack
 
