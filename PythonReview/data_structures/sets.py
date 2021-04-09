@@ -6,7 +6,7 @@ numbers = [1, 1, 2, 3, 4]  ## remove duplicates by setting the set function
 uniques = set(numbers)
 print (uniques)
 
-new_nums = {1, 5} ##deine a new set of items w/ curly brackets
+new_nums = {1, 5} ##define a new set of items w/ curly brackets
 new_nums.add(6)
 print(new_nums)
 

@@ -14,7 +14,7 @@ first, second, third = numbers
 #if there are too many items in the list and we only want to assign the first two, use *other
 #the items in other is packed into a list stored separately
 new_numbers = [1, 2, 3, 5, 6, 7, 9]
-first, second, *other = new_numbers
+#first, second, *other = new_numbers
 #print(first)
 #print(other)
 

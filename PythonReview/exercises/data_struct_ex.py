@@ -1,7 +1,7 @@
 from pprint import pprint
 ##find the most repeated character 
-##1. find how many time character is repeated
-##2. what data structure is useful for storing this information?  a dictionary for key,value pairs
+##1. find how many time a character is repeated
+##what data structure is useful for storing this information?  a dictionary for key,value pairs
 
 sentence = "This is a common interview question"
 ## define an empty dictionary
