@@ -14,4 +14,17 @@ def enter_num():
     else: 
         print("that is not a correct color option")
 
-enter_num()
+#enter_num()
+
+#example 4
+#Write pseudo code to print all multiples of 5 between 1 and 100 (including both 1 and 100).
+
+new_list = []
+for i in range(1,101):
+    if i == 1:
+        new_list.append(i)
+    if i % 5 == 0:
+        new_list.append(i)       
+   
+print(new_list)
+
